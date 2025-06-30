@@ -1,6 +1,6 @@
 function [data, commandVoltage, properties] = loadDemonVoltTDMS(filename)
 %loadDemonVoltTDMS Loads electrochemistry data from a TDMS file.
-%   [data, commandVoltage, properties] = LOADDEMONVOLTTDMS(filename) reads
+%   [data, commandVoltage, properties] = loadDemonVoltTDMS(filename) reads
 %   electrochemical data (voltammograms, command voltage, and properties)
 %   from a specified .tdms file. This function relies on the 'TDMS Reader'
 %   package by Jim Hokanson, available on MATLAB Central File Exchange.
